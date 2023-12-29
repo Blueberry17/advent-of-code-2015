@@ -1,25 +1,25 @@
 directions = open("input.txt").read()
 places = set()
 x1 = y1 = x2 = y2 = 0
-for index, d in enumerate(directions):
+for index, d in enumerate(directions.removesuffix("\n")):
     if index % 2 == 0:
         if d == ">":
             x1 += 1
-        if d == "<":
+        elif d == "<":
             x1 -= 1
-        if d == "^":
+        elif d == "^":
             y1 -= 1
-        if d == "v":
+        else:
             y1 += 1
         places.add((x1, y1))
     else:
         if d == ">":
             x2 += 1
-        if d == "<":
+        elif d == "<":
             x2 -= 1
-        if d == "^":
+        elif d == "^":
             y2 -= 1
-        if d == "v":
+        else:
             y2 += 1
         places.add((x2, y2))
 

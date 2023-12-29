@@ -1,14 +1,14 @@
 directions = open("input.txt").read()
 places = set()
 x = y = 0
-for d in directions:
+for d in directions.removesuffix("\n"):
     if d == ">":
         x += 1
-    if d == "<":
+    elif d == "<":
         x -= 1
-    if d == "^":
+    elif d == "^":
         y -= 1
-    if d == "v":
+    else:
         y += 1
     places.add((x, y))
 
