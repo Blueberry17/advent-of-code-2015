@@ -12,7 +12,7 @@ for line in open("input.txt").read().split("\n"):
         if len(last) > 0:
             if last == char:
                 double = True
-            elif (last+char) in ["ab", "cd", "pq", "xy"]:
+            elif last+char in ["ab", "cd", "pq", "xy"]:
                 naughty = True
                 break
             last = char

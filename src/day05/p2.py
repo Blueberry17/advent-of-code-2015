@@ -11,7 +11,7 @@ for line in open("input.txt").read().split("\n"):
         if len(double_last) > 2 and double_last[-3] == double_last[-1]:
             split_double = True
         if len(last) > 0:
-            if (last+char) in pairs.keys():
+            if last+char in pairs.keys():
                 if pairs[last+char] != index-1:
                     double_pair = True
             else:

@@ -14,3 +14,4 @@ python3 solutions/day01/p1.py
 2. In-built functions can make for very concise code.
 3. Even Santa is automating!
 4. Hashlib is a very handy encoder and decoder.
+5. Pay attention to the differences between parts.
