@@ -1,2 +1,3 @@
 # advent-of-code-2015
-Solutions to the 2015 Advent of Code by Anthony Berry
+My [Advent of Code 2015](https://adventofcode.com/2015) solutions, written in Python.
+Each part for each day is stored in a separate file.
