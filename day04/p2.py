@@ -1,6 +1,6 @@
 import hashlib
 
-key = open("day4info.txt").read().removesuffix("\n")
+key = open("input.txt").read().removesuffix("\n")
 
 to_add = -1
 while True:

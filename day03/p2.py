@@ -1,4 +1,4 @@
-directions = open("day3info.txt").read()
+directions = open("input.txt").read()
 places = set()
 x1 = y1 = x2 = y2 = 0
 for index, d in enumerate(directions):

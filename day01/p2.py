@@ -1,4 +1,4 @@
-brackets = open("day1info.txt").read()
+brackets = open("input.txt").read()
 total = 0
 for index, i in enumerate(brackets):
     if i == "(":
