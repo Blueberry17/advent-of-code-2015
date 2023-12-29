@@ -2,12 +2,12 @@ import hashlib
 
 key = open("input.txt").read().removesuffix("\n")
 
-to_add = -1
+to_add = 0
 while True:
-    to_add += 1
     new_key = key+str(to_add)
     result = hashlib.md5(new_key.encode())
-    if result.hexdigest()[:5] == "000000":
+    if result.hexdigest()[:5] == "00000":
         break
+    to_add += 1
 
 print(to_add)
