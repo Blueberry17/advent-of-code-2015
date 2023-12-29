@@ -9,4 +9,4 @@ To run the code for a specific day and part from the root directory, use the fol
 python3 day1/p1.py
 ```
 
-#Lessons
+# Lessons
