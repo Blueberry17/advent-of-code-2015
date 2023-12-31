@@ -6,7 +6,7 @@ Each part for each day is stored in a separate file.
 # Running
 To run the code for a specific day and part with this as the root directory, use the following format.
 ```
-python3 solutions/day01/p1.py
+python3 src/day01/p1.py
 ```
 
 # Lessons
@@ -15,3 +15,4 @@ python3 solutions/day01/p1.py
 3. Even Santa is automating!
 4. Hashlib is a very handy encoder and decoder.
 5. Pay attention to the differences between parts.
+6. Handy regex statements can be very satisfying.
