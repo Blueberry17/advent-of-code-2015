@@ -17,3 +17,4 @@ python3 src/day01/p1.py
 5. Pay attention to the differences between parts.
 6. Handy regex statements can be very satisfying.
 7. Python's bitwise complement works differently to how you'd expect.
+8. Always check for end-of-line bugs.
