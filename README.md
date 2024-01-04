@@ -19,3 +19,4 @@ python3 src/day01/p1.py
 7. Python's bitwise complement works differently to how you'd expect.
 8. Always check for end-of-line bugs.
 9. I'm so glad that brute force was sufficient here...
+10. Regex can make logic much simpler.
