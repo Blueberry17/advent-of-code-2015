@@ -20,3 +20,4 @@ python3 src/day01/p1.py
 8. Always check for end-of-line bugs.
 9. I'm so glad that brute force was sufficient here...
 10. Regex can make logic much simpler.
+11. Just end a loop instead of repeatedly continuing.
