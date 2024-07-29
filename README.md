@@ -10,7 +10,7 @@ python3 src/day01/p1.py
 ```
 
 # Lessons
-1. Who knew AoC could be this difficult?
+1. Who knew AoC could be this easy?
 2. In-built functions can make for very concise code.
 3. Even Santa is automating!
 4. Hashlib is a very handy encoder and decoder.
@@ -21,3 +21,4 @@ python3 src/day01/p1.py
 9. I'm so glad that brute force was sufficient here...
 10. Regex can make logic much simpler.
 11. Just end a loop instead of repeatedly continuing.
+12. Completely restarting is often easier for part 2.
