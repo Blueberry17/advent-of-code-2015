@@ -19,11 +19,9 @@ combs = itertools.permutations(nodes, len(nodes))
 best = float("-inf")
 for comb in combs:
     total = 0
-    for index in range(len(comb)-1):
-        first, second = comb[index], comb[index+1]
+    for index in range(len(comb)):
+        first, second = comb[index], comb[(index+1) % len(nodes)]
         total += info[first][second] + info[second][first]
-    first = comb[0]
-    total += info[first][second] + info[second][first]
     if total > best:
         best = total
 
