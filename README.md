@@ -22,3 +22,4 @@ python3 src/day01/p1.py
 10. Regex can make logic much simpler.
 11. Just end a loop instead of repeatedly continuing.
 12. Completely restarting is often easier for part 2.
+13. Just because you have nodes, doesn't mean there's an efficient algorithm!
