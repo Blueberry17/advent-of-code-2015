@@ -24,4 +24,5 @@ python3 src/day01/p1.py
 12. Completely restarting is often easier for part 2.
 13. Just because you have nodes, doesn't mean there's an efficient algorithm!
 14. Just assign to variables instead of using countless indexes.
-15. Itertools can be so useful.
+15. Itertools can be very, very useful.
+16. Always unpack enumerate into two values.
