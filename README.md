@@ -26,3 +26,4 @@ python3 src/day01/p1.py
 14. Just assign to variables instead of using countless indexes.
 15. Itertools can be very, very useful.
 16. Always unpack enumerate into two values.
+17. Wow, combinations were used a lot in this AoC...
