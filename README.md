@@ -27,3 +27,4 @@ python3 src/day01/p1.py
 15. Itertools can be very, very useful.
 16. Always unpack enumerate into two values.
 17. Wow, combinations were used a lot in this AoC...
+18. It's crazy how easy these later days used to be.
